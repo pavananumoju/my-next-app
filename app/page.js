@@ -7,13 +7,10 @@ export default function App() {
   const collapseItems = [
     "Features",
     "Customers",
-    "Pricing",
     "Company",
     "Legal",
     "Team",
-    "Help & Feedback",
-    "Login",
-    "Sign Up",
+    "Help & Feedback"
   ];
 
   return (
@@ -27,12 +24,12 @@ export default function App() {
           </Text>
         </Navbar.Brand>
         <Navbar.Content enableCursorHighlight hideIn="xs" variant="underline">
-          <Navbar.Link href="#">Features</Navbar.Link>
+          <Navbar.Link href="#">Fixtures</Navbar.Link>
           <Navbar.Link isActive href="#">
-            Customers
+            Rules
           </Navbar.Link>
-          <Navbar.Link href="#">Pricing</Navbar.Link>
-          <Navbar.Link href="#">Company</Navbar.Link>
+          <Navbar.Link href="#">Schedule</Navbar.Link>
+          <Navbar.Link href="#">Results</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
           <Navbar.Link color="inherit" href="#">
