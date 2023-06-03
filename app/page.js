@@ -1,6 +1,6 @@
 'use client';
 import { Navbar, Button, Link, Text } from "@nextui-org/react";
-import { Layout } from "../nav/Layout.js";
+import { Layout } from "../nav/NavLayout.js";
 import { AcmeLogo } from "../nav/AcmeLogo.js";
 
 export default function App() {
